@@ -1,0 +1,726 @@
+body {
+    background: #EBEBEB;
+}
+div.col-lg-12.col-md-12.col-sm-12.col-xs-12.page-width {
+    width: 985px;
+    margin: 0 auto;
+    float: none;
+}
+div.col-lg-12.col-md-12.col-sm-12.col-xs-12.page-width .container {
+    width: 100%;
+    float:left;
+    padding: 0;
+}
+.booking-title-header {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5px;
+    text-transform: capitalize;
+    color:#1E72AE;
+}
+.page-content {
+    background: #ffffff;
+    float: left;
+    width: 970px;
+    padding: 10px 5px;
+}
+.page-content .box-around {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+}
+.page-content .box-around .back-cont {
+    background: #eeeeee;
+    padding: 10px 5px 15px 5px;
+    float:left;
+    width: 100%;
+}
+label.input-title {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+input.e-input {
+    background: none repeat scroll 0 0 #fff !important;
+    box-shadow: 0 2px 2px #d8dcdf inset !important;
+    color: #000000 !important;
+    height: 28px;
+    padding: 3px;
+}
+.form-camp.fec {
+    padding-right: 0;
+}
+.form-camp.fec input {
+    width: 80%;
+    float:left;
+}
+.form-camp.fec span.ui-icon {
+    width: 10%;
+    float:left;
+    padding: 5px;   
+    box-shadow: 0 2px 2px #d8dcdf inset;
+    background: #FFFFFF;
+    border-radius: 0px 4px 4px 0px;
+    padding: 13px;
+    border: 1px solid #CCCCCC;
+    margin-left: -10px;
+    background-image: url("http://www.europlayas.es/website-epl-theme/images/color_schemes/green/prime-theme/ui-icons_cc0000_256x240.png");
+    background-position: -39px 169px;
+    background-size: 331px auto;
+}
+.filter-box {
+    float:left;
+    width: 100%;
+}
+div.listado-box, div.listado-header {
+    float:left;
+    width: 100%;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d7d7d7 75%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(75%,#d7d7d7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d7d7d7 75%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#d7d7d7 75%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#d7d7d7 75%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#d7d7d7 75%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+
+}
+.listado-box .listado-content {
+    background: #FFFFFF;
+    float:left;
+    width: 100%;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+.listado-box .listado-content .list-element {
+    float:left;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+.listado-box .listado-header span.table-head {
+    padding: 10px 0;
+    float:left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.listado-box .listado-content span.table-list {
+    padding: 10px;
+    float:left;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    vertical-align: middle;
+}
+.listado-box .listado-header span.table-head.loc, 
+.listado-box .listado-content span.table-list.loc {width: 11%;}
+.listado-box .listado-header span.table-head.fec,
+.listado-box .listado-content span.table-list.fec {width: 13%;}
+.listado-box .listado-header span.table-head.serv,
+.listado-box .listado-content span.table-list.serv {width: 35%;}
+.listado-box .listado-header span.table-head.prec,
+.listado-box .listado-content span.table-list.prec {width: 8%;}
+.listado-box .listado-header span.table-head.est,
+.listado-box .listado-content span.table-list.est {width: 10%;}
+.listado-box .listado-header span.table-head.btn-cont,
+.listado-box .listado-content span.table-list.btn-cont {width: 10%;padding: 5px;}
+.listado-box .listado-content span.table-list.est.conf:after {
+    content: "Confirmado";
+    color:#0049AA;
+    font-weight: bold;
+    font-size: 12px;
+}
+.listado-box .listado-content span.table-list.est.anu:after {
+    content: "Anulado";
+    color:#cc0000;
+    font-weight: bold;
+    font-size: 12px;
+}
+.listado-content .btn-default.btn-abrir, .filter-box .btn-default.btn-abrir {
+    background: #ffaa2a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffaa2a 0%, #ea8c00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffaa2a), color-stop(100%,#ea8c00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffaa2a 0%,#ea8c00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffaa2a 0%,#ea8c00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffaa2a 0%,#ea8c00 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffaa2a 0%,#ea8c00 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa2a', endColorstr='#ea8c00',GradientType=0 ); /* IE6-9 */
+    color: #FFFFFF;
+    font-weight: 700;
+    border: 1px solid #c60;
+    padding: 3px 10px;
+}
+.listado-content .btn-default.btn-abrir:hover {
+    background: #ea8c00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ea8c00 0%, #ffaa2a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea8c00), color-stop(100%,#ffaa2a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ea8c00 0%,#ffaa2a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ea8c00 0%,#ffaa2a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ea8c00 0%,#ffaa2a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ea8c00 0%,#ffaa2a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea8c00', endColorstr='#ffaa2a',GradientType=0 ); /* IE6-9 */
+}
+.form-camp .bootstrap-select.btn-group {
+    width: 90%;
+    float:left;
+    height: 28px;
+}
+.form-camp .selectpicker.btn-default.dropdown-toggle {
+    background: #FFFFFF;
+    padding: 4px;
+    margin-bottom:0;
+    margin-top: 0;
+    float:left;
+    width: 100%;
+    display: block;
+    height: 28px;
+}
+.mrg10top {
+    float:left;
+    width: 100%;
+    margin-top: 8px;
+}
+.dropdown-menu.selectpicker li {
+    background: #FFFFFF;
+}
+.dropdown-menu.selectpicker li a:hover {
+    background: #0049AA;
+    color: #FFFFFF;
+}
+.back-cont .form-camp.col-lg-3 .form-control.e-input {
+    float: left;
+    width: 85%;
+}
+
+
+/* CSS PARA BLOQUEA */
+
+body {
+    background: #ebebeb;
+}
+.page-content.bloquea {
+    padding: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.page-bloq-header {
+    float: left;
+    width: 100%;
+}
+.locat .title-page-header {
+    float: left;
+    font-weight: bold;
+    color: #0049AA;
+}
+.locat .data {
+    float: left;
+}
+.title-page-header {
+    font-size: 18px;
+}
+.locat {
+    float: left;
+    width: 25%;
+}
+.estado-res {
+    float: left;
+    width: 35%;
+    clear: both;
+}
+.price-header {
+    float: right;
+    width: 33%;
+    padding: 10px;
+    background: #0049AA;
+    color: #FFFFFF;
+}
+.price-header .title-page-price {
+    font-size: 16px;
+}
+.price-header .data {
+    font-size: 21px;
+}
+.price-header .imp-min {
+    font-size: 10px;
+}
+.bloquea-box {
+    float:left;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    clear: both;
+    background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(231,231,231,1) 30%, rgba(231,231,231,1) 86%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(30%,rgba(231,231,231,1)), color-stop(86%,rgba(231,231,231,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(231,231,231,1) 30%,rgba(231,231,231,1) 86%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(231,231,231,1) 30%,rgba(231,231,231,1) 86%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(231,231,231,1) 30%,rgba(231,231,231,1) 86%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(231,231,231,1) 30%,rgba(231,231,231,1) 86%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+.bloquea-box h4 {
+    float:left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0049AA;
+}
+.bloquea-box .hotel-name {
+    background: #FFFFFF;
+    float:left;
+    padding: 10px;
+    width: 100%;
+}
+.bloquea-box .hotel-name .hotel-icon {
+    float: left;
+    height: 28px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: 28px auto;
+    background-image: url("http://www.europlayas.es/website-epl-theme/images/epl/ico-house.png");
+}
+.bloquea-box .hotel-name .data {
+    font-size: 18px;
+    float:left; 
+    color: #0049AA;
+    font-weight: 700;
+}
+.bloquea-box .tiemp-est {
+    background: #FFFFFF;
+    float:left;
+    width: 100%;
+    padding: 5px;
+    margin-top: 30px;
+    font-size: 12px;
+    border: 1px solid #CCCCCC;
+}
+.bloquea-box .bloquea-line-label {
+    float:left;
+    font-weight: 700;
+}
+.bloquea-box .bloquea-line-data {
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.bloquea-box .hab-est {
+    float: left;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+.bloquea-box .hab-est .hab-icon {
+    float: left;
+    height: 28px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: 39px auto;
+    background-image: url("../../images/icon-room-detail.png");
+}
+.bloquea-box .hab-est .seg-icon {
+    float: left;
+    height: 28px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: 39px auto;
+    background-image: url("../../images/ico-ticket.png");
+}
+.bloquea-box .hab-est .bloquea-hab-label {
+    font-size: 18px;
+    float:left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.bloquea-box .hab-est .bloquea-hab-data {
+    float: left;
+    font-size: 12px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+.bloquea-box .hab-est .bloquea-hab-data.conf {color: #0049AA;font-weight: bold;}
+.bloquea-box .hab-est .bloquea-hab-data.af-gui:after {
+    content: "-";
+    float: right;
+    margin-left: 5px;
+}
+.bloquea-box .hab-est .bloquea-hab-data.af-bar:after {
+    content: "/";
+    float: right;
+    margin-left: 5px;
+}
+.bloquea-box .hab-est .bloquea-line-data {
+    font-size: 12px;
+    float:left;
+    width: 100%;
+    margin-left: 10px;
+}
+.bloquea-box .hab-est .box-inf-imp {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ebebeb;
+    width: 100%;
+    float: left;
+}
+.bloquea-box .hab-est .box-inf-imp .box-inf-min {
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+}
+.bloquea-box .hab-est .box-inf-imp ul.gast-canc {
+    list-style: none outside none;
+    padding: 10px;
+    float:left;
+    background: #0049AA;
+    color: #FFFFFF;
+    margin: 10px 0.5%;
+    width: 99%;
+}
+.bloquea-box .hab-est .box-inf-imp ul.gast-canc li {
+    font-size: 10px;
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    padding: 0 0 5px;
+}
+.contact-dat {
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.bloquea-box.contact-dat .header-contact {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    background: #0049AA;
+    width: 100%;
+}
+.bloquea-box.contact-dat .contact-box .contact-title {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    background: #0049AA;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.bloquea-box.contact-dat .contact-box {
+    padding: 2px 10px;
+    float: left;
+    width: 100%;
+}
+.bloquea-box.contact-dat .contact-box .contact-label {
+    font-size: 12px;
+    float:left;
+    color: #999999;
+    margin-left: 10px;
+}
+.bloquea-box.contact-dat .contact-box .contact-data {
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+}
+.bloquea-box.contact-dat .contact-box .contact-data {margin-right: 12%;}
+.bloquea-box.contact-dat .contact-box .contact-data.fecNac {
+    margin-right: 0;
+}
+.doc-res-box {
+    border: 1px solid #cccccc;
+    float: left;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #FFFFFF;
+}
+.doc-res-box .header-doc {
+    color: #0049AA;
+}
+.doc-res-box .bono-serv-opt, .doc-res-box .conf-serv-opt {
+    float: left;
+    width: 100%;
+    background-color: #ececec;
+    padding: 5px;
+}
+.doc-res-box .conf-serv-opt {
+    margin-top: 10px;
+    color: #333333;
+}
+.doc-res-box .conf-serv-opt a {
+    float: left;
+    width: 100%;
+    background-image: url("../../../content/css/reservas/ico-doc-confirm.png");
+    background-repeat: no-repeat;
+    text-indent: 70px;
+    color: #333333;
+}
+.doc-res-box .bono-serv-opt a {
+    float: left;
+    width: 100%;
+    background-image: url("../../../content/css/reservas/ico-doc-bono.png");
+    background-repeat: no-repeat;
+    text-indent: 70px;
+    color: #333333;
+}
+.doc-res-box .bono-serv-opt:hover,
+.doc-res-box .conf-serv-opt:hover {
+    background-color: #cccccc;
+}
+
+/*.doc-res-box a {*/
+    /*background-image: url("/content/css/reservas/ico-doc-confirm.png");*/
+    /*padding: 0 15px;*/
+    /*float: left;*/
+    /*width: 100%;*/
+/*}*/
+/*.doc-res-box .item {*/
+    /*background-image: url("/content/css/reservas/ico-doc-bono.png");*/
+    /*padding: 0 15px;*/
+    /*float: left;*/
+    /*width: 100%;*/
+/*}*/
+#box-datos-pag {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.form-credit-card {
+    float: left;
+    width: 100%;
+    clear: both
+}
+.importe-a-pagar {
+    float: left;
+    width: 30%;
+    background: #ea8c00;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    line-hegiht: 14px;
+}
+.importe-a-pagar span.label {
+    color: #FFFFFF;
+    float:left;
+    width: auto;
+    font-weight: bold;
+}
+.importe-a-pagar span.data {
+    width: auto;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.pagoERROR {
+    float: left;
+    width: 100%;
+    background: rgba(178, 0, 0, 1);
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    line-hegiht: 14px;
+    display:none;
+}
+.pagoERROR span.label {
+    color: #FFFFFF;
+    float:left;
+    width: auto;
+    font-weight: bold;
+    margin: 6px;
+}
+.pagoERROR span.data {
+    width: auto;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 6px;
+}
+.pagoOK {
+    float: left;
+    width: 100%;
+    background: #0049AA;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    line-hegiht: 14px;
+    display:none;
+}
+.pagoOK span.label {
+    color: #FFFFFF;
+    float:left;
+    width: auto;
+    margin: 6px;
+    font-weight: bold;
+
+}
+.pagoOK span.data {
+    width: auto;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.mensajeEstadoPago {
+    float: left;
+    width: 100%;
+    background: rgb(220, 224, 255);
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    line-hegiht: 14px;
+    display:none;
+}
+.mensajeEstadoPago span.label {
+    color: #5C5C5C;
+    float:left;
+    width: auto;
+    margin: 6px;
+    font-weight: bold;
+
+}
+.mensajeEstadoPago span.data {
+    width: auto;
+    float: right;
+    color: #5C5C5C;
+    font-weight: bold;
+}
+
+.mensajesTC {
+    clear: both;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.btn-pag-list {
+    float: left;
+    width: 60%;
+    clear: both;
+    margin-top: 15px;
+}
+.btn-pag-list .btn.btn-default, .btn.btn-default.cancelarReserva {color: #FFFFFF;font-weight: bold;}
+.btn-pag-list .btn.btn-default.cancelar, .btn.btn-default.cancelarReserva {
+    background: rgb(178,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(178,0,0,1) 0%, rgba(105,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(178,0,0,1)), color-stop(100%,rgba(105,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(178,0,0,1) 0%,rgba(105,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(178,0,0,1) 0%,rgba(105,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(178,0,0,1) 0%,rgba(105,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(178,0,0,1) 0%,rgba(105,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b20000', endColorstr='#690000',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #690000;
+}
+.btn-pag-list .btn.btn-default.cancelar:hover, .btn.btn-default.cancelarReserva:hover {
+    background: rgb(105,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(105,0,0,1) 0%, rgba(178,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(105,0,0,1)), color-stop(100%,rgba(178,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(105,0,0,1) 0%,rgba(178,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(105,0,0,1) 0%,rgba(178,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(105,0,0,1) 0%,rgba(178,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(105,0,0,1) 0%,rgba(178,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#690000', endColorstr='#b20000',GradientType=0 ); /* IE6-9 */
+}
+.btn.btn-default.volver {
+    font-weight: bold;
+    color:#fff;
+    background: rgb(255,170,42); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,170,42,1) 0%, rgba(234,140,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,170,42,1)), color-stop(100%,rgba(234,140,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,170,42,1) 0%,rgba(234,140,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,170,42,1) 0%,rgba(234,140,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,170,42,1) 0%,rgba(234,140,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,170,42,1) 0%,rgba(234,140,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa2a', endColorstr='#ea8c00',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #c60;
+}
+.btn.btn-default.volver:hover {
+    font-weight: bold;
+    color:#fff;
+    background: rgb(234,140,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(234,140,0,1) 0%, rgba(255,170,42,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,140,0,1)), color-stop(100%,rgba(255,170,42,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(234,140,0,1) 0%,rgba(255,170,42,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(234,140,0,1) 0%,rgba(255,170,42,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(234,140,0,1) 0%,rgba(255,170,42,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(234,140,0,1) 0%,rgba(255,170,42,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea8c00', endColorstr='#ffaa2a',GradientType=0 ); /* IE6-9 */
+}
+.btn-pag-list .btn.btn-default.pagar {
+    background: rgb(0,151,49); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,151,49,1) 0%, rgba(0,104,2,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,151,49,1)), color-stop(100%,rgba(0,104,2,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,151,49,1) 0%,rgba(0,104,2,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,151,49,1) 0%,rgba(0,104,2,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,151,49,1) 0%,rgba(0,104,2,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,151,49,1) 0%,rgba(0,104,2,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009731', endColorstr='#006802',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #006802;
+}
+.btn-pag-list .btn.btn-default.pagar:hover {
+    background: rgb(0,104,2); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,104,2,1) 0%, rgba(0,151,49,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,104,2,1)), color-stop(100%,rgba(0,151,49,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,104,2,1) 0%,rgba(0,151,49,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,104,2,1) 0%,rgba(0,151,49,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,104,2,1) 0%,rgba(0,151,49,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,104,2,1) 0%,rgba(0,151,49,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006802', endColorstr='#009731',GradientType=0 ); /* IE6-9 */
+
+}
+.prec-final-res {
+    background: #0049AA;
+    color: #ffffff;
+    float: right;
+    font-weight: bold;
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.prec-final-res span {
+    float: left;
+}
+.prec-final-res span.precio-final-label {
+    font-size: 18px;
+    margin: 0 5px 0 0;
+    font-weight: normal;
+}
+.prec-final-res span.precio-final {
+    font-size: 30px;
+    font-weight: bold;
+    margin: -12px 0 0px;
+}
+.prec-final-res span.precio-final:after {
+    content: "€";
+    color: #fff;
+    font-size: 32px;
+    margin-left: 10px;
+}
+.prec-final-res span.masInfPrecioFinal {
+    font-size: 14px;
+    clear: both;
+    float: right;
+    font-weight: normal;
+}
+.prec-final-res span.masInfPrecioFinal-min {
+    font-size: 11px;
+    clear: both;
+    font-weight: normal;
+    width: 80%;
+    float: right;
+}
+
+.fondoRojo{
+    background-color: #FF4A3B;
+}

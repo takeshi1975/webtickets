@@ -1,0 +1,16 @@
+
+#filterStructure{display:none;visibility: hidden;}
+
+#buscador-dispoHe{height: 275px;}
+#buscador-dispoHotel{height: 225px;}
+
+#filterStructureAc{display: block;/*position: absolute;margin-top: 8%;*/width: 100%;}
+
+.structure-table{background: #336699;width: 100%;color: #ffffff;padding: 3px 5px;margin-bottom:10px;border-radius:5px;}
+
+.structure-text-table{font-size: 14px;font-weight: bold;}
+
+#btnFiltrar{margin-right:3%;float:right;margin-top: 3%;width:20% !important;height:65%;}
+
+#nombreFiltro{width: 100%;}
+

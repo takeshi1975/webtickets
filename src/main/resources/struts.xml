@@ -1,0 +1,21 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+   <package name="default" namespace="/" extends="struts-default">                                        
+                  
+      <result-types>
+         <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+      </result-types> 
+      
+      <action name="base" class="com.webtickets.actions.PortAventAction" method="execute">
+      	 	<result name="success" type="tiles">portAventura</result>
+      </action>
+      
+      <action name="">      
+      	<result>index.jsp</result> 
+      </action> 	  
+	  
+   </package>
+</struts>

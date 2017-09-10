@@ -1,0 +1,546 @@
+
+/* EUROHOTEL CAMBIOS VERDE POR AZUL */
+
+ /* Buscador - Home */
+.buscador .green-b {background-color: #0049aa;}
+.busc-body .buscs-dat .add-on i.fa-calendar, .busc-body .busc-dat .add-on i.fa-calendar {color: #0049aa;}
+.busc-opt .bootstrap-select > button > span.caret {border-top-color: #0049aa;}
+.bootstrap-select .dropdown-menu > li > a:hover,
+.bootstrap-select .dropdown-menu > li > a:focus,
+.bootstrap-select .dropdown-menu > .active > a,
+.bootstrap-select .dropdown-menu > .active > a:hover,
+.bootstrap-select .dropdown-menu > .active > a:focus {
+    background-color: #0049aa;
+    background-image: linear-gradient(to bottom, #0049aa 0px, #438cc2 100%);
+    background-repeat: repeat-x;
+}
+.ui-datepicker-calendar .ui-state-default,
+.ui-datepicker-calendar .ui-widget-content .ui-state-default,
+.ui-datepicker-calendar .ui-widget-header .ui-state-default {
+    background: #0049aa;
+    color: #FFFFFF;
+}
+#ui-datepicker-div .ui-widget-header {background:  #0049aa;}
+.ui-datepicker-next.ui-state-hover,
+.ui-datepicker-prev.ui-state-hover {
+    background: #0049aa;
+}
+
+/* Disponibilidad */
+
+#headerSection .franjaCabecera {background-color: #0049aa;}
+.clearFranjaCabecera .cabeceraBienvenido .reservas a {color: #0049aa; }
+.main #seleccionado {border-color: #0049aa;}
+#seleccionado .header-dispo-sel,
+#seleccionado .label-sel-precio,
+#seleccionado .label-sel-precio h4 {background:  #0049aa;}
+.dispoHotel .dispoBox-title {background:  #0049aa;}
+#tabHotel .dispoHotel {background: #EFF6FF;}
+.tabDispoHeader .tab-sec-header {background:  #0049aa;}
+.tab-sec .btn-dispo-reservar:hover {background:  #0049aa;}
+.busc-dispo-opt .bootstrap-select > button > span.caret {border-top-color: #0049aa;}
+#bloque-izda-bh .busc-dispo-dat .add-on i.fa-calendar {color: #0049aa;}
+
+/* Bloquea */
+
+#resumenBarco, #resumenHotel, #resumenSeguro, #resumenDatos, #datosPasajeros {border-color: #0049aa;}
+#detallesHotel, #detDatosBox, #detDocReserva, #detDatosSeg, #detDatosPag, #detGastosCancelacion, #detResBarco  {border-color: #0049aa;}
+#resumenBarco .header-dispo-sel,
+#resumenHotel .header-dispo-sel,
+#resumenSeguro .header-dispo-sel,
+#resumenDatos .header-dispo-sel,
+.header-service-table.total-cont,
+#form-bloqueo .label-form-epl,
+#datosPasajeros .header-dispo-sel,
+#containerVC .header-dispo-sel
+{background:  #0049aa;}
+.ui-datatable-tablewrapper .ui-state-default, .ui-widget-content .ui-state-default,
+.ui-datatable-tablewrapper .ui-widget-header .ui-state-default {
+    background:  #AFD2FF;
+}
+#field-kdoc .kdoc button.selectpicker span.caret, #field-trat .kdoc button.selectpicker span.caret {border-top-color: #0049aa;}
+#form-bloqueo #field-fecCadDNI .datepicker-icon.add-on i {color: #0049aa;}
+#desgloseAgen i.fa.fa-plus-circle, #desgloseAgen i.fa.fa-minus-circle, #desglosePrecio i.fa.fa-plus-circle, #desglosePrecio i.fa.fa-minus-circle {color: #0049aa;}
+.detHotelBox i {color: #0049aa;}
+.fa-building-o {color: #0049aa;}
+.fa {color: #0049aa;}
+.bootstrap-select > button > span.caret {border-top-color: #0049aa;}
+.tabDispoContent .nameHabColorStylediv {background-color: #0049aa;}
+.infoDispo .dispo-buttonmas:hover {background-color: #0049aa;}
+.controls-filt ul li.cat-item:hover label {color: #0049aa;}
+
+/*  BLOQUEA */
+
+.page-content.locat span strong {background:  #0049aa;}
+.page-content .precTotalFin {background:  #0049aa;}
+.page-content .localizadorConfirma {background:  #0049aa;}
+.page-content .estadoReserva {background:  #0049aa;}
+#detallesHotel, #detDatosBox, #detDocReserva, #detDatosSeg, #detDatosPag, #detGastosCancelacion, #detResBarco {border-color:  #0049aa;}
+.detHotelBox, .detFecBox, .detResBox {background:  #EFF6FF;}
+#detallesHotel .header-dispo-sel, #detDatosBox .header-dispo-sel, #detDocReserva .header-dispo-sel,
+#detDatosSeg .header-dispo-sel, #detDatosPag .header-dispo-sel, #detGastosCancelacion .header-dispo-sel,
+#detResBarco .header-dispo-sel {background:  #0049aa;}
+#detDatosBox .label-form-epl {background:  #0049aa;}
+#desgloseAgen i.fa.fa-plus-circle, #desgloseAgen i.fa.fa-minus-circle, #desglosePrecio i.fa.fa-plus-circle, #desglosePrecio i.fa.fa-minus-circle {color:  #0049aa;}
+.header-service-table.total-cont {background:  #0049aa;}
+
+
+
+
+
+.panel-layout {
+    backcground: #FAFAFA;
+    float:left;
+    width: 100%;
+}
+.breadcrumb li:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.breadcrumb li {
+    float:left;
+    width: 24%;
+    padding: 12px;
+    list-style: none outside none;
+    border-radius: 2px;
+    margin: 1% -1px;
+    position: relative;
+    border: 1px solid white;
+    /*border: 1px solid #DCDCDC;*/
+    background: #d1d1d1; /* Old browsers */
+    background: -moz-linear-gradient(left,  #d1d1d1 0%, #efefef 97%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d1d1d1), color-stop(97%,#efefef)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #d1d1d1 0%,#efefef 97%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #d1d1d1 0%,#efefef 97%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #d1d1d1 0%,#efefef 97%); /* IE10+ */
+    background: linear-gradient(to right,  #d1d1d1 0%,#efefef 97%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#efefef',GradientType=1 ); /* IE6-9 */
+
+}
+.breadcrumb li.blue {
+    border: 1px solid #4580BF;
+    background: #3993ce; /* Old browsers */
+    background: -moz-linear-gradient(left,  #3993ce 0%, #0049aa 97%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3993ce), color-stop(97%,#0049aa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #3993ce 0%,#0049aa 97%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #3993ce 0%,#0049aa 97%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #3993ce 0%,#0049aa 97%); /* IE10+ */
+    background: linear-gradient(to right,  #3993ce 0%,#0049aa 97%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3993ce', endColorstr='#0049aa',GradientType=1 ); /* IE6-9 */
+}
+.badge {
+    border-radius: 50%;
+    background: #CCCCCC;
+    border: 2px solid #DDDDDD;
+    width: 25px;
+    height: 25px;
+    float:left;
+    margin: -6px -5px -5px 15px;
+    text-indent: 1px;
+    line-height: 16px;
+    padding: 3px 6px;
+}
+.breadcrumb li.blue .badge {
+    background: #5BA0CC;
+    color: #FFF;
+    border: 2px solid #4580BF;
+    /*text-shadow: -1px -1px 1px #FFF;*/
+}
+.blue .title-text {color: #FFFFFF;}
+.title-text {
+    float: left;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    color: #555555;
+    font-family: 'Arial', Sans-serif;
+}
+.blue .pest-tri {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #0049aa;
+}
+.pest-tri {
+    position: absolute;
+    background: transparent;
+    border-style: solid;
+    border-width: 20px 23px 19px 20px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #EFEFEF;
+    right: -42px;
+    top: 0;
+    z-index: 1;
+}
+
+.flat {
+    color: #ffffff;
+    background-color: #0049aa;
+}
+.flat:hover {
+    color: #ffffff;
+    background-color: #5BA0CC;
+}
+.flat:active {
+    background: #3993ce;
+}
+
+
+
+#loginBox {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+#loginBox .modal.fade.in {
+    top: 30%;
+}
+#loginBox .modal.fade {
+    top: -25%;
+    transition: opacity 0.3s linear 0s, top 0.3s ease-out 0s;
+}
+#loginBox .modal {
+    background-clip: padding-box;
+    background-color: #eeeeee;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    left: 50%;
+    margin-left: -472px;
+    outline: medium none;
+    padding: 2px;
+    position: absolute;
+    top: 10%;
+    width: 945px;
+    z-index: 1050;
+}
+#loginBox .modal .modal-body {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    max-height: inherit;
+    padding: 0;
+}
+#loginBox .modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    position: relative;
+}
+#loginBox .modal h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 0;
+}
+#loginBox .blue-dark-bc {
+    background: none repeat scroll 0 0 #0049aa;
+    /*background: none repeat scroll 0 0 #009e3d;*/
+    color: #ffffff;
+}
+#loginBox .modal-info-comision .comision-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px;
+}
+#loginBox .modal-info-comision .comision-wrapper p {
+    display: inline-block;
+    margin: 0;
+}
+#loginBox a {
+    color: #0049aa;
+    /*color: #009e3d;*/
+    font-family: inherit;
+    text-decoration: none;
+}
+#loginBox .modal-footer {
+    background: none repeat scroll 0 0 #eeeeee;
+    clear: both;
+    color: #666666;
+    display: block;
+    overflow: hidden;
+    padding: 10px 30px;
+    text-align: right;
+}
+#loginBox .modal-footer {
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+#loginBox .modal-footer button.btn-gray {
+    -moz-user-select: none;
+    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 4px 29px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#loginBox .modal-backdrop, #loginBox .modal-backdrop.fade.in {
+    opacity: 0.3;
+}
+#loginBox #myModal-info-comision {
+    bottom: auto;
+    overflow: hidden;
+}
+.busc-body a.editarMargen, .subgroupbusreserva a.volver {
+    color: #0049aa;
+    /*color: #009e3d;*/
+    font-family: inherit;
+    text-decoration: none;
+    float: left;
+    margin-top: 35px;
+}
+.subgroupbusreserva a.volver {
+    float: right;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: normal;
+}
+/*configurar margen*/
+#contenidoConfigurarMargen {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+#contenidoConfigurarMargen p {
+    margin: 0;
+    text-align: center;
+}
+#contenidoConfigurarMargen .boxA {
+    border: 1px solid #cccccc;
+    position: relative;
+    text-align: left;
+}
+#contenidoConfigurarMargen .boxATitle {
+    background: url("../images/seccion-titulo-fondo3.png") repeat-x scroll center top rgba(0, 0, 0, 0);
+    border: 1px solid #bebebe;
+    height: 63px;
+    padding: 0 0 0 20px;
+}
+#contenidoConfigurarMargen .boxATitle h3 {
+    color: #ffffff;
+    float: left;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 62px;
+    margin: 0;
+}
+#contenidoConfigurarMargen fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+#contenidoConfigurarMargen .groupbusreserva {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+#contenidoConfigurarMargen .subgroupbusreserva {
+    border-bottom: 1px dotted #cccccc;
+    color: #666666;
+    float: left;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 15px 0 15px 20px;
+    text-align: left;
+    width: 98%;
+}
+#contenidoConfigurarMargen .subgroupbusreserva .contenido {
+    float: left;
+    margin-right: 20px;
+}
+#contenidoConfigurarMargen .subgroupbusreserva .contenido label, .subgroupbusreserva .contenido2 label {
+    float: left;
+    font-size: 1.1em;
+    line-height: 22px;
+    width: 135px;
+}
+#contenidoConfigurarMargen .subgroupbusreserva .contenido input, .subgroupbusreserva .contenido2 input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #cccccc;
+    color: #666666;
+    font-size: 1.1em;
+    margin-left: 10px;
+    padding: 3px 5px 3px 7px;
+    width: 175px;
+}
+#contenidoConfigurarMargen form legend {
+    display: none;
+}
+#contenidoConfigurarMargen .botonbuscar {
+    float: right;
+    padding: 5px;
+}
+#contenidoConfigurarMargen .frmOperativa .submit {
+    padding: 0.3em 14px;
+    text-decoration: none;
+}
+#contenidoConfigurarMargen .botonE .botonCont,
+#contenidoConfigurarMargen .botonE .botonTop,
+#contenidoConfigurarMargen .botonE .botonBot div,
+#contenidoConfigurarMargen .botonE .botonBot {
+    background: #0049aa;
+    /*background: url("../images/botonE.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+}
+#contenidoConfigurarMargen .botonE {
+    display: inline-block;
+    margin-right: 4px;
+    max-width: 394px;
+    min-width: 6px;
+    position: relative;
+    text-align: left;
+}
+#contenidoConfigurarMargen .botonE .botonCont {
+    background-position: right top;
+    padding: 2px 0 0;
+    position: relative;
+    text-align: center;
+}
+#contenidoConfigurarMargen .botonE .botonCont * {
+    color: #ffffff;
+    font-weight: bold;
+}
+#contenidoConfigurarMargen .botonE .botonBot div, #contenidoConfigurarMargen .botonE .botonBot {
+    font-size: 1px;
+    height: 2px;
+    left: 0;
+    position: relative;
+}
+#contenidoConfigurarMargen .botonE .botonTop {
+    background-position: left top;
+    height: 100%;
+    left: -2px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+#contenidoConfigurarMargen .botonE .botonBot {
+    background-position: right bottom;
+    position: relative;
+    width: 100%;
+}
+#contenidoConfigurarMargen .botonE .botonBot div {
+    background-position: left bottom;
+    left: -2px;
+    margin: 0;
+    position: relative;
+    width: 2px;
+}
+#contenidoConfigurarMargen input.submit, #contenidoConfigurarMargen button.submit {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    font: inherit;
+    overflow: visible;
+    padding: 1px 20px;
+}
+#contenidoConfigurarMargen form div.submit {
+}
+#contenidoConfigurarMargen #historico {
+    border: 1px solid #cccccc;
+    margin: 10px;
+    padding: 5px;
+}
+#contenidoConfigurarMargen #historico table {
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    font-size: 12px;
+}
+#contenidoConfigurarMargen #historico table caption {
+    background: none repeat scroll 0 0 #0049aa;
+    /*background: none repeat scroll 0 0 #00772d;*/
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    caption-side: top;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+}
+#contenidoConfigurarMargen #historico table caption,
+#contenidoConfigurarMargen #historico table th,
+#contenidoConfigurarMargen #historico table td {
+    padding: 0.4em 0.8em;
+}
+#contenidoConfigurarMargen #historico table thead th {
+    background-color: #AFD2FF;
+    /*background-color: #d2ffe3;*/
+    color: #222222;
+    font-size: 1.1em;
+    text-align: left;
+}
+#contenidoConfigurarMargen #historico table tbody td {
+    background-color: #ffffff;
+}
+#contenidoConfigurarMargen #historico table tbody tr:nth-child(2n+1) td {
+    background-color: #f9f9f9
+}
+#contenidoConfigurarMargen .boxABottomLeft {
+    background: url("../images/boxA-esquinas.gif") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    bottom: -1px;
+    height: 5px;
+    left: -1px;
+    position: absolute;
+    width: 5px;
+}
+#contenidoConfigurarMargen .boxABottomRight {
+    background: url("../images/boxA-esquinas.gif") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    bottom: -1px;
+    height: 5px;
+    position: absolute;
+    right: -1px;
+    width: 5px;
+}
+#contenidoConfigurarMargen .boxATopLeft {
+    background: url("../images/boxA-esquinas.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 5px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 5px;
+}
+#contenidoConfigurarMargen .boxATopRight {
+    background: url("../images/boxA-esquinas.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    height: 5px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 5px;
+}
+.VCCantidad{
+    width:30px;
+}
+
+/* Bloque Venta Cruzada */
+.tdTablaVC{
+    background: none repeat scroll 0 0 #0049aa;
+    border: 1px solid #efefef;
+    padding: 5px 25px;
+    color:#fff
+}
+#nombreTitulo {
+    text-align: left;
+    margin-left: -20px;
+    color: #0049aa;
+}
+
+#containerVC{
+    border-color: #0049aa;
+}

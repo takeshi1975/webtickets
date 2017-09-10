@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+  <definition name="baseLayout" template="/WEB-INF/layouts/baseLayout.jsp">
+      <put-attribute name="title"  value="Layout"/>
+      <put-attribute name="includes" value="/WEB-INF/tiles/includes.jsp"/>
+      <put-attribute name="buscador1" value="/WEB-INF/tiles/buscador1.jsp"/>            	  
+	  <put-attribute name="buscador2" value="/WEB-INF/tiles/buscador2.jsp"/>            	  
+	  <put-attribute name="menu2" value="/WEB-INF/tiles/menu2.jsp"/>
+      <put-attribute name="body"   value="/WEB-INF/tiles/body.jsp"/>
+      <put-attribute name="footer"   value="/WEB-INF/tiles/footer.jsp"/>
+      <put-attribute name="header"   value="/WEB-INF/tiles/header.jsp"/>
+      <put-attribute name="slider"   value="/WEB-INF/tiles/slider.jsp"/>
+  </definition>
+  
+  <definition name="portAventura" extends="baseLayout">
+	  <put-attribute name="title"  value="PortAventura"/>                  
+  </definition>
+  
+  
+</tiles-definitions>

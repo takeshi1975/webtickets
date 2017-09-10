@@ -1,0 +1,297 @@
+
+/* PLANTILLA EPL HOME P1 */
+
+.eplHomep1 {
+    float: left;
+    max-width: 970px;
+    background: #FFFFFF;
+    border-radius:5px;
+    padding:10px;
+}
+
+/* BUSCADOR */
+
+.eplHomep1 .buscador {
+    float: left;
+    width: 98%;
+}
+.eplHomep1 .buscador .busc-head {width: 100%;}
+.eplHomep1 .buscador .busc-body {width: 100%;}
+.eplHomep1 .buscador .busc-dat, .eplHomep1 .buscador .buscs-dat {height: auto;margin-bottom: 15px;}
+.eplHomep1 .buscador .busc-opt .title-min {width: 100%;}
+
+.eplHomep1 .bannerCols {float: left;}
+.eplHomep1 .bannerCols img {float: left;width: 100%;border-radius:5px;}
+.eplHomep1 .offerCols {float: left;width: 100%;}
+.eplHomep1 .offerCols img {float: left; width: 100%;}
+
+.eplHomep1 .offerCols h2{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(32, 119, 183) 0%, rgb(28, 103, 159) 100%) repeat scroll 0 0;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    width: 100%;
+    padding: 8px 17px 9px;
+    text-align: left;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* MENU PRINCIPAL BACKOFFICE CSS */
+
+.menuWeb-list {
+    float: left;
+    list-style: outside none none;
+    padding: 0;
+    width: 100%;
+    background: #336699;
+    padding: 15px 7px 5px;
+    border-radius: 5px 5px 0 0;
+}
+.menuBack-item, .menuBack-home {
+    border-color: #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    float: left;
+    height: 13px;
+    line-height: 12px;
+    width: auto;
+    position: relative;
+}
+.menuBack-home {
+    border-left: 0;
+    margin-right: 5px;
+}
+.menuBack-home a {
+    float: left;
+    height: 23px;
+    margin-top: -5px;
+    padding-top: 5px;
+    width: 100%;
+}
+.menuBack-home a:hover {
+    border-radius: 5px 5px 0 0;
+    background: #ebebeb;
+}
+.menuBack-home a:hover span.fa {
+    color: #336699;
+}
+.menuBack-home a span.fa {
+    font-size: 19px;
+    margin: -4px 4px;
+}
+.menuBack-item a {
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    height: 23px;
+    letter-spacing: -1px;
+    margin-top: -5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.menuBack-item a:hover, .menuBack-item a:active, .menuBack-item.open a {
+    background: #ebebeb;
+    color: #336699;
+    text-shadow: none;
+    text-decoration: none;
+}
+.menuBack-item ul.dropdown-menu {
+    float: left;
+    padding: 0;
+    background: #ebebeb;
+    margin-top: 0;
+    top: 18px;
+    border-radius: 0 0 6px 6px;
+}
+.menuBack-item ul.dropdown-menu li.sub-item {
+    color: #336699;
+    float: left;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    height: 32px;
+}
+.menuBack-item ul.dropdown-menu li.sub-item a {
+    float: left;
+    line-height: 26px;
+    margin-top: 0;
+    width: 100%;
+    border-radius: 0;
+    height: 32px;
+    color: #336699;
+    text-shadow: none;
+}
+.menuBack-item ul.dropdown-menu li.sub-item a:hover {
+    color: #FFFFFF;
+}
+
+/* CSS PESTAÑAS BUSCADOR */
+
+.pestanasBuscadorList {
+    float: left;
+    padding: 0;
+    width: 31%;
+    margin-top: 35px;
+    border: 0 none;
+}
+.pestanasBuscadorList li {
+    float: right;
+    clear: both;
+    padding: 0;
+    margin:0;
+    width: 82%;
+    margin-top: 5px;
+    list-style: none outside none;
+    position: relative;
+}
+.pestanasBuscadorList li:before {
+    content: "\f015";
+    font-family: FontAwesome;
+    color: #000000;
+    font-size: 18px;
+    position:absolute;
+    top:6px;
+    left:7px;
+    z-index: 1;
+}
+.pestanasBuscadorList li a {
+    float: left;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #CCCCCC;
+    background: #bbbbbb;
+    color: #333333;
+    font-size: 11px;
+    font-weight: 400;
+    height: inherit;
+    box-shadow: -3px 2px 3px #a0a0a0;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 0;
+}
+.pestanasBuscadorList li a:hover {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+    color: #333333;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.pestanasBuscadorList li.active {
+    width: 92%;
+}
+.pestanasBuscadorList li.active a {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+    border-bottom-color: #dddddd;
+    border-right-color: transparent;
+    color: #000000;
+    font-weight: 400;
+}
+
+/* CSS OFERTAS EUROPLAYAS */
+
+.offerCols {
+    padding: 10px;
+}
+.offerCols .offerCol {
+    float: left;
+    width: 33.3333%;
+    padding: 4px;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+}
+.offerCols .offerColTitle {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    background: rgb(204,204,204); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(204,204,204,1) 27%, rgba(55,55,55,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(204,204,204,1)), color-stop(100%,rgba(55,55,55,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 27%,rgba(55,55,55,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(204,204,204,1) 27%,rgba(55,55,55,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(204,204,204,1) 27%,rgba(55,55,55,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(204,204,204,1) 27%,rgba(55,55,55,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#373737',GradientType=0 ); /* IE6-9 */
+}
+.offerCol .offerColTitle > img {
+    float: right;
+    margin-bottom: -1px;
+    margin-right: -7px;
+    margin-top: -4px;
+    max-width: 58px;
+    position: relative;
+}
+.offerCols .offerColItem {
+    float: left;
+    width: 100%;
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 5px;
+    overflow: hidden;
+    min-height: 47px;
+    padding: 0 10px 5px;
+}
+.offerCols .offerColItem img {
+    float:left;
+    margin: 5px;
+    width: 20%;
+    max-width: 50px;
+    border-radius: 6px;
+}
+.offerCols .offerColItem .offerInfo {
+    float:left;
+    width: auto;
+    max-width: 60%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.offerCols .offerColItem .offerInfo .offerMain {
+    color: #336699;
+    display: block;
+    font-size: 15px;
+}
+.offerCols .offerColItem .offerPrice {
+    float:right;
+    width: 20%;
+    margin-top: 5px;
+}
+.offerCols .offerColItem .offerPrice .priceDesde {
+    font-size: 13px;
+    font-weight: normal;
+    color: #333333;
+    text-align: right;
+}
+.offerCols .offerColItem .offerPrice .price {
+    color: #ea8c00;
+    font-size: 17px;
+}

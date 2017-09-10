@@ -1,0 +1,389 @@
+
+.busc-dispo-opt-habVueloHotel{width: 12%;float: left;border-left: none;margin-left: 0%;margin-top: 10px;margin-right: 8px;height: 50px; }
+.title-min-VueloHotel{margin-left: 2%;margin-right: 5px;display: inline-block;margin-bottom: 5px;font-weight: normal;box-sizing: border-box;}
+#buscador-dispo-VueloHotel{width: 100%; display:table;}
+/*#botonSearch{width: 22%;margin-right: -209px;float: right;margin-top:15%;padding: 5px 15px}*/
+#fechaInicioIconoVueloHotel{margin-right: 5%;}
+#fechaFinIconoVueloHotel{margin-right: 13%;}
+.ocupacionHabVueloHotel1{width: 40%;float: left;clear: both;box-sizing: border-box;}
+#hab2VueloHotel{margin-top: 70px;width: 41%;}
+#hab3VueloHotel{margin-top:-81px;margin-left: 325px;width: 41%;}
+.idaTrenST{width:10% !important;}
+.structureFH{margin-top: 1%;}
+#marginbuscFiltrarHoras{margin-left: 1%;width:265px;}
+#marginbuscFiltrarHorasVta{margin-left: 1%;width:265px;}
+/*.block-cc.hEstacionSalida {width:10%;}*/
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamin {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamin .dropdown-menu.open {width:100%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamax {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamax .dropdown-menu.open {width:100%;}
+/*.block-cc.hEstacionLlegada {width:10%;}*/
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamin {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamin .dropdown-menu.open {width:100%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamax {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamax .dropdown-menu.open {width:100%;}
+#btn-b2{float: right;margin-top: -1%;margin-right: 1%;}
+.structure-table-semi{background: #DDDDDD;width: 100%;color: #000000;padding: 3px 5px;margin-top: 8%;}
+#positionRange{display: none;float: right;}
+.styleA{color: black;position: relative;top: -4px;margin-left: 1%;margin-right: 1%;}
+
+/* VUELO + HOTEL (CSS, rev.1) */
+
+.seleccionHotel.info {
+    float: left;
+    max-width: 69%;
+    width: auto;
+    margin-top: 10px;
+}
+.seleccionHotel.info > span {
+    float: left;
+    margin-bottom: 12px;
+    margin-top: -4px;
+    width: 100%;
+}
+.tabVueloHotel {
+    float: left;
+    width: 100%;
+    padding-top:8px;
+    font-family:'Open Sans', Arial;
+}
+.tabVueloHotel-header {
+    background:#00732C;
+    height:28px;
+    float:left;
+    width:100%;
+}
+.tabSelecVueloHotel {width:100%;float:left;}
+.tabVueloHotel-header .tab-sec-header {
+    border: 0 none;
+    color: #fff;
+    font-weight: bold;
+    width:20%;
+    padding:5px 10px;
+}
+.tabVueloHotel-header .tab-sec-header i.fa {
+    font-size:16px;
+    float:left;
+}
+.selec-vuelo {
+    float: left;
+    width: 75%;
+    border-bottom:1px dotted #CCCCCC;
+}
+.selec-hotel {
+    float: left;
+    width: 75%;
+}
+.tab-sec .compVuelosSelecLogo {
+    width:70px;
+}
+.tabDispo {float:left;width:100%;}
+.seleccionVueloHotel {
+    border:2px solid #E0E0E0;
+    padding:5px;
+    border-radius:4px;
+}
+.dispo-img.seleccionadoServicioImagen {
+    border: 3px solid #ddd;
+    border-radius: 2px;
+    margin: 5px;
+    width: 190px;
+    float:left;
+}
+.seleccionVueloHotel .dispo-desc {float:left;width:auto;}
+.totalSelVueloHotel {
+    background: none repeat scroll 0 0 #f4faf0;
+    float: right;
+    padding: 30px;
+    width: 24%;
+}
+.precTotalTitle {
+    float: left;
+    font-size: 18px;
+    margin-top: -30px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.totalSelVueloHotel .seleccionadoTotal {
+    font-size:32px;
+    color:#336699;
+    float:left;
+    width:100%;
+    font-weight:bold;
+}
+.totalSelVueloHotel input.reservar {
+    background-image: linear-gradient(to top, #ea8c00 0px, #ffaa2a 200%);
+    border-image: none;
+    border-left: 1px solid #cc6600;
+    border-radius: 5px;
+    border-right: 1px solid #cc6600;
+    border-top: 1px solid #cc6600;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 5px 30px;
+    text-shadow: 0 1px 0 #505050;
+}
+.botFinal.verFicha {
+    background: none repeat scroll 0 0 #f4faf0;
+    border-top: 1px dotted #ccc;
+    float: right;
+    margin-left: -10px;
+    margin-top: -1px;
+    padding: 66px 25px;
+    width: 24%;
+}
+.botFinal.verFicha input {
+    background-image: linear-gradient(to top, #ea8c00 0px, #ffaa2a 200%);
+    border: 1px solid #cc6600;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 55px;
+    text-shadow: 0 1px 0px #505050;
+}
+.tab-sec-header.secIda {width:23%;}
+.tab-sec-header.secComp {width:19%;}
+.tab-sec-header.secSal {width:24%;}
+.tab-sec-header.secLleg {width:24%;}
+.tab-sec-header.secClas {width:10%;}
+.tabVueloHotel .tab-sec {width:20%;font-size:14px;padding-left:0;}
+.tab-sec.idaVuel {width:23%;padding-left:10px;}
+.tab-sec.aerolineaVuel {width:19%;}
+.tab-sec.origenVuel {width:24%;}
+.tab-sec.destinoVuel {width:20%;}
+.tab-sec.claseVuelo {width: 14%;}
+.tab-sec.claseVuelo span {text-align: center;width:100%;}
+.tab-sec.vuelos-det {width:10%;}
+
+/* DISPO VUELOS LISTA */
+.dispoVuelos .tabDispo .tabDispoVuelos {height:80px;padding-top:10px;float:left;border-bottom:1px dotted #CCCCCC;border-left:0 none;border-right:0 none;}
+.dispoVuelos .tabDispo {margin-bottom:10px;}
+.sec-headerVuel {color:#FFFFFF;width:100%;float:left;padding-left:5px;}
+.sec-headerVuel .fa {float:left;font-size:16px;}
+.sec-headerVuel span {margin-left:5px;font-size:14px;font-family:'Open Sans';}
+.tabDispoVuelos .tab-sec {font-size:14px;font-family:'Open Sans';padding-left:0;color:#535353;}
+.tab-sec.v-check {width:5%;padding-top:10px;padding-left:8px;}
+.tab-sec.v-comp {width:14%;}
+.tab-sec.v-fin {width:29%;}
+.tab-sec.v-ent {width:29%;}
+.tab-sec.v-pvp {width:15%;}
+.tab-sec.v-info {width:7%;}
+.tab-sec.v-pvp span.t-pvp {}
+.tab-sec.v-pvp span.t-info {font-size:30px;float:right;cursor:pointer;padding-right:4px;}
+.dispoVuelos {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.dispoVuelos .dispoBox-left, .dispoVuelos .dispoBox-right {margin:0;}
+.dispoVuelos .horaIdaLlegadaTransporte, .dispoVuelos .horaIdaSalidaTransporte, .dispoVuelos .horaVtaSalidaTransporte, .dispoVuelos .horaVtaLlegadaTransporte {font-weight:bold;}
+.tabDispoVuelos.tabDispoSec:hover {background:#F4FAF0;}
+.tabDispoVueloSeleccionado{background: #e2ffdc !important;}
+.dispoVuelos .seccion-agrupacion {
+    border: 3px solid #EDEDED;
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+}
+.precioHeaderVuelos {font-size:21px;color:#535353;}
+.dispoVuelos .tabDispo .tabEscala {border:1px solid #A6D77C;padding-top:0;height:auto;float:left;display: none;}
+.tabEscala .tab-sec.v-check {display:none;}
+.tabEscala .tab-sec.v-pvp {display:none;}
+.tabEscala .escalaHeader {width:100%;float:left;background:#F3FAF2;padding-left:5px;min-height:30px;padding-bottom:0;padding-top:5px;}
+.tabEscala .escalaHeader span {float:left;}
+.tabEscala .escalaHeader span.upper.bold {color:#12965A;margin-left:5px;margin-right:10px;}
+.tabEscala .escalaHeader span.escalaHour {margin-left:5px;}
+.tabEscala .escalaFooter {border-top:1px dotted #999999;width:100%;float:left;min-height:30px;}
+.tabEscala .escalaFooter span {float:left;}
+.tabEscala .tab-sec.v-comp {width:24%;float:left;padding-bottom:10px;height:94px;}
+.tabEscala .tab-sec.v-comp span {width:100%;}
+.tabEscala .tab-sec.v-comp span img {margin:0 auto;}
+.tabEscala .tab-sec.v-fin {width:35%;float:left;padding-bottom:10px;margin-right:10px;}
+.tabEscala .tab-sec.v-ent {width:35%;float:left;padding-bottom:10px;margin-right:10px;}
+.tabEscala .escalaFooter .escalaLocat {float:left;width:20%;margin-left:20px;color:#12965A;font-weight:bold;}
+.tabEscala .escalaFooter .escalaClass {float:left;width:45%;text-align:left;font-size: 13px;}
+.origenVuel .hour, .destinoVuel .hour {font-weight:bold;float:left;clear:left;}
+.seleccionadoInstalacionOrigenIdaTransporte,
+.seleccionadoInstalacionDestinoIdaTransporte,
+.seleccionadoInstalacionOrigenVtaTransporte,
+.seleccionadoInstalacionDestinoVtaTransporte {float:left;}
+h3.resultTitleDispo strong.green-eur {margin-left:5px;}
+h3.resultTitleDispo {margin-top:3px;margin-bottom:3px;}
+.headerTitleDispoContent .title-selec {font-weight:bold;margin-left:10px;}
+.headerTitleDispoContent .title-selec.first {margin-left:0;}
+#filterStructureAc #btn-b1 {
+    width: 11%;
+    float: left;
+    height: 44px;
+    margin-top: 6px;
+}
+#filterStructureAc #btn-b1 .btn.btn-default.busc-btn {width:100% !important;float:left;margin-left:10px;padding-top:4px;}
+#field-filtPrecios {
+    float: left;
+    width: 18%;
+    background: #fcfcfc;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    margin-left:0;
+}
+#field-filtPrecios .titleFilt {
+    background: none repeat scroll 0 0 #efefef;
+    border-bottom: 1px dotted #adadad;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    padding: 5px 7px;
+    width: 106%;
+}
+#filt-categoria {width:16%;float:left;}
+#filt-zonas {width:14%;float:left;}
+.filt-regimen {width:22%;float:left;}
+.filt-carac {width:16%;float:left;}
+#filt-tarifa {width:13%;float:left;}
+.filt-cias {width:16%;float:left;}
+.filt-escalas {width:13%;float:left;}
+#field-filtSalida, #field-filtVuelta {
+    width: 168px;
+}
+.controls-filt {
+    background:#FCFCFC;
+    border:1px solid #CCCCCC;
+    padding:5px;
+    font-size:11px;
+    width:18%;
+    margin-left:7px;
+    float: left;
+}
+.controls-filt ul {float:left;width:100%;list-style:none outside none;padding-left:0;margin-bottom:0;}
+.controls-filt ul li.cat-item {width:100%;cursor:pointer;height:22px;clear:left;}
+/*.controls-filt ul li.cat-item:hover {background:#01742D;color:#01742D;}*/
+.controls-filt ul li.cat-item:hover label {color:#336699;}
+.controls-filt ul li.cat-item.checked label {
+    background: none repeat scroll 0 0 #01742c;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    padding: 0 5px;
+    text-shadow: 0 -1px #9a9a9a;
+    box-shadow:0 2px 1px #bfbfbf;
+    color:#FFFFFF;
+    margin-top:3px;
+}
+.controls-filt ul li.cat-item label {float:left;font-weight:normal;margin-top:4px;margin-bottom:2px;cursor:pointer;}
+.controls-filt ul li.cat-item input {float:left;margin-right:7px;cursor:pointer;}
+.title-filt {
+    background: none repeat scroll 0 0 #efefef;
+    border-bottom: 1px dotted #adadad;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    padding: 5px 7px;
+    width: 107%;
+}
+
+.tabDispoSec{
+    width:100% !important;
+    padding-right: 3px !important;
+}
+.tabEscala{
+    padding-right: 0px !important;
+}
+
+.dispo-desc-foto-vh{
+    width:210px;
+    float:left;
+}
+.dispo-desc-vh{
+    float:left;
+    width:420px;
+    padding-top:5px;
+}
+
+.fechasDispoAgr{
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+
+/* Modal-Box de ESCALAS */
+
+.desplegableInfoSegmentos{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #767676;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    width: 227px;
+    margin-left:-230px;
+}
+.detallesVuelo h4, .detallesSegmento h4 {
+    background: none repeat scroll 0 0 #336699;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    margin: 5px -5px;
+    padding: 3px;
+    text-align: center;
+    width: 215px;
+}
+.detallesVuelo {
+    border: 1px solid #dcdcdc;
+    margin-left: -5px;
+    margin-top: 30px;
+    padding: 4px;
+    width: 216px;
+    float: left;
+}
+.detallesSegmento {
+    border: 1px solid #dcdcdc;
+    float: left;
+    margin-left: -5px;
+    margin-top: 30px;
+    padding: 4px;
+    width: 216px;
+}
+.detallesVuelo h4.firstSegDet {
+    float: left;
+    margin-top: -30px;
+}
+.detallesSegmento h4 {float:left;margin-top:-30px;}
+.detallesVuelo label, .detallesSegmento label {
+    clear: left;
+    float: left;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.detallesVuelo span, .detallesSegmento span {
+    float:left;
+    width:auto;
+}
+.detallesSegmento .sepEscVuel {
+    border-top: 2px solid #ddd;
+    float: left;
+    height: 5px;
+    margin-top: 10px;
+    padding: 5px 0;
+    width: 200px;
+}
+.detallesSegmento > span:first-child {margin-top:0;display:none;}
+
+.fa-info-circle.masInfo{
+    cursor:pointer;
+    font-size: 30px;
+    color:#ec8f04;
+}
+

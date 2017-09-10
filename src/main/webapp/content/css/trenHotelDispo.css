@@ -1,0 +1,31 @@
+
+.busc-dispo-opt-habTrenHotel{width: 12%;float: left;border-left: none;margin-left: 0;margin-top: 10px;}
+.title-min-trenhotel{margin-left: 2%;margin-right: 5px;display: inline-block;margin-bottom: 5px;font-weight: normal;box-sizing: border-box;}
+#buscador-dispo-TrenHotel{width: 100%; display:table;}
+#botonSearch{width: 20%;float: right;padding: 5px 15px; margin:37px 22px;}
+#fechaInicioIconoTrenHotel{margin-right: 5%;}
+#fechaFinIconoTrenHotel{margin-right: 5%;}
+.ocupacionHabTrenHotel1{width:33%; float:left; padding-left:10px; margin-top:10px; margin-bottom:10px;}
+#hab2TrenHotel{width:33%; float:left; padding-left:10px; margin-top:10px; margin-bottom:10px;}
+#hab3TrenHotel{width:33%; float:left; padding-left:10px; margin-top:10px; margin-bottom:10px;}
+.idaTrenST{width:10% !important;}
+.structureFH{margin-top: 1%;}
+#marginbuscFiltrarHoras{margin-left: 1%;width:265px;}
+#marginbuscFiltrarHorasVta{margin-left: 1%;width:265px;}
+/*.block-cc.hEstacionSalida {width:10%;}*/
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamin {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamin .dropdown-menu.open {width:100%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamax {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hIdaEstacionSalidamax .dropdown-menu.open {width:100%;}
+/*.block-cc.hEstacionLlegada {width:10%;}*/
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamin {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamin .dropdown-menu.open {width:100%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamax {width:33%;}
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).hVtaEstacionSalidamax .dropdown-menu.open {width:100%;}
+#btn-b2{float: right;margin-top: -1%;margin-right: 1%;}
+.structure-table-semi{background: #DDDDDD;width: 100%;color: #000000;padding: 3px 5px;margin-top: 8%;}
+#positionRange{display: none;float: right;}
+.styleA{color: black;position: relative;top: -4px;margin-left: 1%;margin-right: 1%;}
+
+.btn-group.bootstrap-select.num-hab.show-menu-arrow {width:82px !important;}
+
