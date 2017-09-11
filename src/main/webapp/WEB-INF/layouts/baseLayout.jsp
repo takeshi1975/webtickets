@@ -4,7 +4,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 
-
 <html>
 <s:i18n name="textos">
 <head>	
@@ -54,16 +53,79 @@
 	<script type="text/javascript" src="content/js/poa/portaventura.js"></script>
 		
 	<title><tiles:insertAttribute name="title"/></title>	  	
+	
 	<style type="text/css">
+	    .wrapper{
+	    	background: linear-gradient(to top, #EFEFEF 0px, #FAFAFA 200%);
+	    }
+	  
 		body *{
 			margin:0px 0px;
 			padding:0px 0px;		
 		}
+	
 		.col-md-4, .col-md-8{ 
 			height:500px;			
 		}
+	
 		.form-group{
 			margin:10px 0px 0px 15px;						
+		}	
+	
+		.row.panel:first-child{
+			margin-top:10px;
+		}
+	
+		#anuncio .anuncios{
+			background-color:#fff;
+		}
+		
+		#anuncio .row.panel{
+			padding-left:21px;
+		}
+	
+		.anuncio{
+			width:296px;
+			float:left;
+			margin-right:10px;				
+			border: 1px solid #CCC;
+		}
+	
+		.anuncio *{				
+			margin:0px 0px; 
+			padding:0px 0px;			
+		}
+	
+		#anuncio p{				
+			font: 14px/18px Arial, Helvetica, sans-serif;    
+			text-shadow: 1px 1px #ccc;
+			color: #7a7a7a;
+			margin-bottom:15px !important;
+			padding-left:5px !important;
+			padding-right:5px !important;
+			height:54px;
+		}		
+		
+		.date-add-on{
+			font-family:FontAwesome;
+			font-style:normal;
+			font-weight:normal;
+			line-height:1;
+			color:#369;
+			margin-left:10%;
+			border: 1px solid #D8DCDF;
+    		border-radius: 0 4px 4px 0;
+    		box-shadow: 0 2px 2px #D8DCDF inset;
+    		float: right;
+    		height: 29px;
+		    margin-right: 60px;
+    		margin-top: -29px;
+    		padding: 5px;
+		}	
+		
+		.fechasEPL{
+			width:243px;
+			height:29px !important;
 		}
 	
 	</style>

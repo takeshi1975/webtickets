@@ -3,6 +3,7 @@
     Definition: Gestión del control de pestañas y otros controles de la página de POA
 **/
 (function ($){
+    
 	$.fn.switchfy = function() {		
 		
 		var reference = this;
@@ -15,16 +16,16 @@
 			window.console && console.log("Se ha hecho click sobre el panel 1");
 			reference.find(".img-one").find("img").attr("src","/webtickets/content/images/poa/BotonesH-P_02.png");
 			reference.find(".img-two").find("img").attr("src","/webtickets/content/images/poa/Entradas.png");
-			reference.find("#tab-one").show(1000);
-			reference.find("#tab-two").hide(1000);				
+			reference.find("#tab-one").show();
+			reference.find("#tab-two").hide();				
 		});
 		
 		this.find(".img-two").click(function(){
 			window.console && console.log("Se ha hecho click sobre el panel 2");
 			reference.find(".img-one").find("img").attr("src","/webtickets/content/images/poa/BotonesH-P.png");
 			reference.find(".img-two").find("img").attr("src","/webtickets/content/images/poa/Entradas_02.png");
-			reference.find("#tab-one").hide(1000);
-			reference.find("#tab-two").show(1000);				
+			reference.find("#tab-one").hide();
+			reference.find("#tab-two").show();				
 		});
 		
 		this.find("#tab-one").css("position","relative");
@@ -36,12 +37,10 @@
 
 	$.fn.fechasEPL=function(){
 		this.each(function(){
-			var ancho = $(this).parent().width()-50;
-			window.console && console.log($(this).parent().attr("name"));
-			window.console && console.log("Ancho detectado:"+ancho);
+			var ancho = "243px";						
 			$(this).css("width", ancho);
 			$(this).css("float", "left");				
-			$(this).parent().append("<span class='littleButton'><i class='fa fa-calendar'></i></span>");				
+			$(this).parent().append("<span class='littleButton date-add-on'><i class='fa fa-calendar'></i></span>");				
 			$(this).parent().find("span").click(function(){					
 				$(this).parent().find(".fechasEPL").datepicker("show");
 				window.console && console.log("Se ha pulsado el control de fechas");
@@ -125,6 +124,23 @@ $(document).ready(function() {
 			}
 		}
 	}).width(60);
+	
+	$(".video").click(function(){		
+	    // Fixes dual-screen position  Most browsers  Firefox
+		var url="ads/video.html";
+		title="Ammy Winehouse";
+		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+	    var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+	    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+	    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+	    var left = ((width / 2) - (874 / 2)) + dualScreenLeft;
+	    var top = ((height / 2) - (500 / 2)) + dualScreenTop;
+	    var newWindow = window.open(url, title, 'scrollbars=no, width=874, height= 500 , top=' + top + ', left=' + left);
+	    // Puts focus on the newWindow
+	    if (window.focus) {
+	        newWindow.focus();
+	    }        				
+	});
 	
 	// Fin de buscador 1
 	$('#carouselPortada').carousel({

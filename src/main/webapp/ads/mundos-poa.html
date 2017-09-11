@@ -2,18 +2,28 @@
 
 <style type="text/css">
 	.row.panel:first-child{
-		margin-top:10px;
+		margin-top:0px;
 	}
-	#anuncio .anuncios{
+	
+	.container.anuncios{
+		margin-top:0px;
+		padding-top:10px;
+		border-radius:5px;
 		background-color:#fff;
 	}
-	#anuncio .row.panel{
+	
+	.anuncio .anuncios{
+		background-color:#fff;
+	}
+	
+	.anuncio .row.panel{
 		padding-left:21px;
 	}
 	
 	.anuncio{
-		width:296px;
+		width:297px;
 		float:left;
+		margin-left:9px;
 		margin-right:10px;				
 		border: 1px solid #CCC;
 	}
@@ -23,167 +33,168 @@
 		padding:0px 0px;			
 	}
 	
-	#anuncio p{				
+	.anuncio p{				
 		font: 14px/18px Arial, Helvetica, sans-serif;    
 		text-shadow: 1px 1px #ccc;
 		color: #7a7a7a;
-		margin-bottom:15px !important;
-		padding-left:5px !important;
-		padding-right:5px !important;
+		padding:0px 5px 15px 5px !important;		
 		height:54px;
+	}
+	
+	.anuncio .row{
+		margin-bottom:0px;
+		padding-bottom:20px;
 	}			
 	
 </style>
 
-<div class="container-fluid anuncios">
-	<div id="ads-panel1"> 
-		<div class="row panel"> <!-- 1ª fila -->
-			<div id="ad1" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/cabecera_china.jpg"/>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>Entrad en la China Colonial y preparaos para las imponentes montañas Rusas, Dragon Khan y Shambhala.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+<div class="container anuncios">
+	<div class="row panel"> <!-- 1ª fila -->
+		<div id="ad1" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/cabecera_china.jpg"/>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 1 -->		
-			<div id="ad2" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/cabecera_FarWest.jpg"/>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>Far West, Diviértete dando un espectacular paseo por el lejano Oeste. ¿Podrás resistirte a subir en la Stampida?</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Entrad en la China Colonial y preparaos para las imponentes montañas Rusas, Dragon Khan y Shambhala.</p>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 2 -->
-			<div id="ad3" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/Cabecera_Mediterranea.jpg"/>
-						</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
 					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>Está caracterizada por un gran lago que simula el maravilloso mar Mediterráneo.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 3 -->															
-		</div>
-		<div class="row panel" > <!-- 1ª fila -->
-			<div id="ad1" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/cabecera_polinesya.jpg"/>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>La exótica Polynesia está llena de vegetacíón, cascadas y aves coloridas</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+			</div>
+		</div>	<!-- fin anuncio 1 -->		
+		<div id="ad2" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/cabecera_FarWest.jpg"/>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 1 -->		
-			<div id="ad2" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/cabecera-sesamo-aventura.jpg"/>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<p>Prepárate para entrar en Sésamo Aventura en el área infantil del parque, donde encontrarás a todos tus amigos.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Far West, Diviértete dando un espectacular paseo por el lejano Oeste. ¿Podrás resistirte a subir en la Stampida?</p>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 2 -->							
-			<div id="ad3" class="anuncio">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-12">
-							<img src="content/images/poa/cabecera_mexico.jpg"/>
-						</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
 					</div>
-					<div class="row">
-						<div class="col-sm-12">
-						<p>Bienvenidos al misterio y al enigma, envueltos por la música y la gastronomía mejicana.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6" >
-							<label style="margin:7px 5px">ATRACCIONES</label>
-						</div>
-						<div class="col-md-6">
-							<a href="#">
-								<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
-							</a>
-						</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
 					</div>
 				</div>
-			</div>	<!-- fin anuncio 1 -->		
-		</div>
+			</div>
+		</div>	<!-- fin anuncio 2 -->
+		<div id="ad3" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/Cabecera_Mediterranea.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Está caracterizada por un gran lago que simula el maravilloso mar Mediterráneo.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
+					</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- fin anuncio 3 -->															
 	</div>
+	<div class="row panel" > <!-- 1ª fila -->
+		<div id="ad1" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/cabecera_polinesya.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>La exótica Polynesia está llena de vegetacíón, cascadas y aves coloridas</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
+					</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- fin anuncio 1 -->		
+		<div id="ad2" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/cabecera-sesamo-aventura.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Prepárate para entrar en Sésamo Aventura en el área infantil del parque, donde encontrarás a todos tus amigos.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
+					</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- fin anuncio 2 -->							
+		<div id="ad3" class="anuncio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="content/images/poa/cabecera_mexico.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+					<p>Bienvenidos al misterio y al enigma, envueltos por la música y la gastronomía mejicana.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" >
+						<label style="margin:7px 5px">ATRACCIONES</label>
+					</div>
+					<div class="col-md-6">
+						<a href="#">
+							<img class="pull-right" src="content/images/poa/boton_Info.png" alt="..."/>														
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- fin anuncio 1 -->		
+	</div>	
 </div>

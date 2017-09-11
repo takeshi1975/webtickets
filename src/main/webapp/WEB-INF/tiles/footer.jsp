@@ -15,7 +15,7 @@
 				</a>
 			</div>
 
-			<div style="float:left">
+			<div style="float:left" class="video">
 				<a href="#">
 					<img src="content/images/poa/boton_video.png" />
 				</a>
